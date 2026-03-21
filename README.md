@@ -17,10 +17,7 @@ Simulates adaptive bitrate (ABR) video streaming over a fluctuating network, inc
 # 1. Encode all renditions and segment into chunks
 python encoder.py
 
-# 2. Use the bandwidth simulator in your own code
-python -c "from network_sim import NetworkSimulator; sim = NetworkSimulator(); print(sim.get_current_bandwidth())"
-
-# 3. Run the bandwidth simulator demo
+# 2. Run the bandwidth simulator demo
 python network_sim.py
 ```
 
