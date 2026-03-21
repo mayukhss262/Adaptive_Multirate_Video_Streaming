@@ -6,6 +6,7 @@ Simulates adaptive bitrate (ABR) video streaming over a fluctuating network, inc
 
 | File | Role |
 |---|---|
+| `big_buck_bunny_1080p_60fps.mp4` | Input video file (1080p, 60fps, MP4 format) |
 | `config.py` | Central settings — rendition profiles, chunk duration, buffer thresholds, network params, FFmpeg paths |
 | `network_sim.py` | Bandwidth simulator — generates fluctuating bandwidth using a sine wave + Gaussian noise model |
 | `encoder.py` | FFmpeg wrapper — encodes the input video into multiple renditions and segments each into chunks |
