@@ -1,5 +1,5 @@
 """
-FFmpeg wrapper — encodes renditions and segments them into chunks.
+Encodes video renditions using ffmpeg and segments them into chunks
 """
 
 import os
