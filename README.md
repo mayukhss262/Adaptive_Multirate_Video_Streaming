@@ -54,7 +54,7 @@ python visualizer.py       # run a short simulation and generate plots
 |---|---|
 | Python 3.10+ | [python.org](https://www.python.org/downloads/) |
 | NumPy | `pip install numpy` |
-| FFmpeg | `winget install Gyan.FFmpeg` (ALTERNATE METHOD TO SOLVE THIS DEPENDENCE IS GIVEN BELOW |
+| FFmpeg | `winget install Gyan.FFmpeg` (ALTERNATE METHOD TO SOLVE THIS DEPENDENCE IS GIVEN BELOW IN INSTALLATION INSTRUCTIONS) |
 | Matplotlib | `pip install matplotlib` |
 
 Installation Instructions:
