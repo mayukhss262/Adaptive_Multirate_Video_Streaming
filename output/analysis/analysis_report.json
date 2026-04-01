@@ -1,0 +1,39 @@
+{
+  "video_duration_s": 16,
+  "total_chunks": 8,
+  "chunk_duration_s": 2,
+  "total_stall_time_s": 0.1581,
+  "stall_count": 1,
+  "stall_ratio": 0.0098,
+  "stall_events": [
+    {
+      "time": 1.430511474609375e-06,
+      "duration": 0.15810465812683105,
+      "chunk_index": 0
+    }
+  ],
+  "avg_bitrate_kbps": 2025.0,
+  "min_bitrate_kbps": 400,
+  "max_bitrate_kbps": 3000,
+  "quality_switch_count": 1,
+  "switch_frequency_per_min": 3.75,
+  "time_at_each_quality_s": {
+    "240p": 6.0,
+    "720p": 10.0
+  },
+  "time_at_each_bitrate_s": {
+    "400": 6.0,
+    "3000": 10.0
+  },
+  "avg_buffer_level_s": 5.56,
+  "switch_events": [
+    {
+      "time": 1.4925017356872559,
+      "old_bitrate_kbps": 400,
+      "new_bitrate_kbps": 3000,
+      "old_rendition": "240p",
+      "new_rendition": "720p"
+    }
+  ],
+  "qoe_score": 0.2456
+}

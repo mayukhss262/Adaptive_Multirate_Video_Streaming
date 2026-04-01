@@ -1,0 +1,9 @@
+chunk_index,rendition,bitrate_kbps,bandwidth_bps,chunk_path,download_time,buffer_seconds
+0,240p,400,5091683.270957784,D:\IIT Kharagpur\Year V\Semester 10 (SP 25-26)\Multimedia Systems & Applications\Multirate Video Streaming Simulator\Repository\output\chunks\240p\chunk_000.mp4,0.15711896389217353,0.0
+1,240p,400,4887048.480239353,D:\IIT Kharagpur\Year V\Semester 10 (SP 25-26)\Multimedia Systems & Applications\Multirate Video Streaming Simulator\Repository\output\chunks\240p\chunk_001.mp4,0.16369798728921517,2.0
+2,240p,400,5629077.497456875,D:\IIT Kharagpur\Year V\Semester 10 (SP 25-26)\Multimedia Systems & Applications\Multirate Video Streaming Simulator\Repository\output\chunks\240p\chunk_002.mp4,0.1421192016562975,3.8352344036102295
+3,720p,3000,5861251.457004997,D:\IIT Kharagpur\Year V\Semester 10 (SP 25-26)\Multimedia Systems & Applications\Multirate Video Streaming Simulator\Repository\output\chunks\720p\chunk_003.mp4,1.023672170356926,5.69175124168396
+4,720p,3000,6027513.828751979,D:\IIT Kharagpur\Year V\Semester 10 (SP 25-26)\Multimedia Systems & Applications\Multirate Video Streaming Simulator\Repository\output\chunks\720p\chunk_004.mp4,0.9954352939646965,6.666549921035767
+5,720p,3000,6609305.644748254,D:\IIT Kharagpur\Year V\Semester 10 (SP 25-26)\Multimedia Systems & Applications\Multirate Video Streaming Simulator\Repository\output\chunks\720p\chunk_005.mp4,0.9078109445229837,7.669880151748657
+6,720p,3000,6727523.195819742,D:\IIT Kharagpur\Year V\Semester 10 (SP 25-26)\Multimedia Systems & Applications\Multirate Video Streaming Simulator\Repository\output\chunks\720p\chunk_006.mp4,0.8918586863778039,8.76079249382019
+7,720p,3000,5764993.375864046,D:\IIT Kharagpur\Year V\Semester 10 (SP 25-26)\Multimedia Systems & Applications\Multirate Video Streaming Simulator\Repository\output\chunks\720p\chunk_007.mp4,1.0407644222315748,9.867608308792114

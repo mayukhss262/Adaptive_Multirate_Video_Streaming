@@ -1,0 +1,210 @@
+{
+  "buffer_levels": [
+    {
+      "time": 0,
+      "buffer_seconds": 0.0
+    },
+    {
+      "time": 2,
+      "buffer_seconds": 2.0
+    },
+    {
+      "time": 4,
+      "buffer_seconds": 3.8352344036102295
+    },
+    {
+      "time": 6,
+      "buffer_seconds": 5.69175124168396
+    },
+    {
+      "time": 8,
+      "buffer_seconds": 6.666549921035767
+    },
+    {
+      "time": 10,
+      "buffer_seconds": 7.669880151748657
+    },
+    {
+      "time": 12,
+      "buffer_seconds": 8.76079249382019
+    },
+    {
+      "time": 14,
+      "buffer_seconds": 9.867608308792114
+    }
+  ],
+  "quality_events": [
+    {
+      "time": 0.15810608863830566,
+      "bitrate_kbps": 400,
+      "rendition": "240p"
+    },
+    {
+      "time": 0.3232080936431885,
+      "bitrate_kbps": 400,
+      "rendition": "240p"
+    },
+    {
+      "time": 0.46694374084472656,
+      "bitrate_kbps": 400,
+      "rendition": "240p"
+    },
+    {
+      "time": 1.4925017356872559,
+      "bitrate_kbps": 3000,
+      "rendition": "720p"
+    },
+    {
+      "time": 2.489426612854004,
+      "bitrate_kbps": 3000,
+      "rendition": "720p"
+    },
+    {
+      "time": 3.398746967315674,
+      "bitrate_kbps": 3000,
+      "rendition": "720p"
+    },
+    {
+      "time": 4.292206764221191,
+      "bitrate_kbps": 3000,
+      "rendition": "720p"
+    },
+    {
+      "time": 5.334911108016968,
+      "bitrate_kbps": 3000,
+      "rendition": "720p"
+    }
+  ],
+  "switch_events": [
+    {
+      "time": 1.4925017356872559,
+      "old_bitrate_kbps": 400,
+      "new_bitrate_kbps": 3000,
+      "old_rendition": "240p",
+      "new_rendition": "720p"
+    }
+  ],
+  "stall_events": [
+    {
+      "time": 1.430511474609375e-06,
+      "duration": 0.15810465812683105,
+      "chunk_index": 0
+    }
+  ],
+  "bandwidth_samples": [
+    {
+      "time": 0,
+      "bandwidth_bps": 5091683.270957784,
+      "selected_bitrate_kbps": 400
+    },
+    {
+      "time": 2,
+      "bandwidth_bps": 4887048.480239353,
+      "selected_bitrate_kbps": 400
+    },
+    {
+      "time": 4,
+      "bandwidth_bps": 5629077.497456875,
+      "selected_bitrate_kbps": 400
+    },
+    {
+      "time": 6,
+      "bandwidth_bps": 5861251.457004997,
+      "selected_bitrate_kbps": 3000
+    },
+    {
+      "time": 8,
+      "bandwidth_bps": 6027513.828751979,
+      "selected_bitrate_kbps": 3000
+    },
+    {
+      "time": 10,
+      "bandwidth_bps": 6609305.644748254,
+      "selected_bitrate_kbps": 3000
+    },
+    {
+      "time": 12,
+      "bandwidth_bps": 6727523.195819742,
+      "selected_bitrate_kbps": 3000
+    },
+    {
+      "time": 14,
+      "bandwidth_bps": 5764993.375864046,
+      "selected_bitrate_kbps": 3000
+    }
+  ],
+  "chunk_downloads": [
+    {
+      "chunk_index": 0,
+      "rendition": "240p",
+      "bitrate_kbps": 400,
+      "bandwidth_bps": 5091683.270957784,
+      "chunk_path": "D:\\IIT Kharagpur\\Year V\\Semester 10 (SP 25-26)\\Multimedia Systems & Applications\\Multirate Video Streaming Simulator\\Repository\\output\\chunks\\240p\\chunk_000.mp4",
+      "download_time": 0.15711896389217353,
+      "buffer_seconds": 0.0
+    },
+    {
+      "chunk_index": 1,
+      "rendition": "240p",
+      "bitrate_kbps": 400,
+      "bandwidth_bps": 4887048.480239353,
+      "chunk_path": "D:\\IIT Kharagpur\\Year V\\Semester 10 (SP 25-26)\\Multimedia Systems & Applications\\Multirate Video Streaming Simulator\\Repository\\output\\chunks\\240p\\chunk_001.mp4",
+      "download_time": 0.16369798728921517,
+      "buffer_seconds": 2.0
+    },
+    {
+      "chunk_index": 2,
+      "rendition": "240p",
+      "bitrate_kbps": 400,
+      "bandwidth_bps": 5629077.497456875,
+      "chunk_path": "D:\\IIT Kharagpur\\Year V\\Semester 10 (SP 25-26)\\Multimedia Systems & Applications\\Multirate Video Streaming Simulator\\Repository\\output\\chunks\\240p\\chunk_002.mp4",
+      "download_time": 0.1421192016562975,
+      "buffer_seconds": 3.8352344036102295
+    },
+    {
+      "chunk_index": 3,
+      "rendition": "720p",
+      "bitrate_kbps": 3000,
+      "bandwidth_bps": 5861251.457004997,
+      "chunk_path": "D:\\IIT Kharagpur\\Year V\\Semester 10 (SP 25-26)\\Multimedia Systems & Applications\\Multirate Video Streaming Simulator\\Repository\\output\\chunks\\720p\\chunk_003.mp4",
+      "download_time": 1.023672170356926,
+      "buffer_seconds": 5.69175124168396
+    },
+    {
+      "chunk_index": 4,
+      "rendition": "720p",
+      "bitrate_kbps": 3000,
+      "bandwidth_bps": 6027513.828751979,
+      "chunk_path": "D:\\IIT Kharagpur\\Year V\\Semester 10 (SP 25-26)\\Multimedia Systems & Applications\\Multirate Video Streaming Simulator\\Repository\\output\\chunks\\720p\\chunk_004.mp4",
+      "download_time": 0.9954352939646965,
+      "buffer_seconds": 6.666549921035767
+    },
+    {
+      "chunk_index": 5,
+      "rendition": "720p",
+      "bitrate_kbps": 3000,
+      "bandwidth_bps": 6609305.644748254,
+      "chunk_path": "D:\\IIT Kharagpur\\Year V\\Semester 10 (SP 25-26)\\Multimedia Systems & Applications\\Multirate Video Streaming Simulator\\Repository\\output\\chunks\\720p\\chunk_005.mp4",
+      "download_time": 0.9078109445229837,
+      "buffer_seconds": 7.669880151748657
+    },
+    {
+      "chunk_index": 6,
+      "rendition": "720p",
+      "bitrate_kbps": 3000,
+      "bandwidth_bps": 6727523.195819742,
+      "chunk_path": "D:\\IIT Kharagpur\\Year V\\Semester 10 (SP 25-26)\\Multimedia Systems & Applications\\Multirate Video Streaming Simulator\\Repository\\output\\chunks\\720p\\chunk_006.mp4",
+      "download_time": 0.8918586863778039,
+      "buffer_seconds": 8.76079249382019
+    },
+    {
+      "chunk_index": 7,
+      "rendition": "720p",
+      "bitrate_kbps": 3000,
+      "bandwidth_bps": 5764993.375864046,
+      "chunk_path": "D:\\IIT Kharagpur\\Year V\\Semester 10 (SP 25-26)\\Multimedia Systems & Applications\\Multirate Video Streaming Simulator\\Repository\\output\\chunks\\720p\\chunk_007.mp4",
+      "download_time": 1.0407644222315748,
+      "buffer_seconds": 9.867608308792114
+    }
+  ]
+}
