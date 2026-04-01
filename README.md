@@ -54,5 +54,17 @@ python visualizer.py       # run a short simulation and generate plots
 |---|---|
 | Python 3.10+ | [python.org](https://www.python.org/downloads/) |
 | NumPy | `pip install numpy` |
-| FFmpeg | `winget install Gyan.FFmpeg` |
+| FFmpeg | `winget install Gyan.FFmpeg` (ALTERNATE METHOD TO SOLVE THIS DEPENDENCE IS GIVEN BELOW |
 | Matplotlib | `pip install matplotlib` |
+
+Installation Instructions:
+
+Clone this repository to your local machine.
+
+Go to the Releases section on the right side of the GitHub page.
+
+Download the ffmpeg.exe and ffprobe.exe files attached to the latest release.
+
+Place these .exe files directly into the root directory of the cloned project.
+
+Run the simulator.
