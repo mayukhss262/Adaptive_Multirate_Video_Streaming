@@ -68,3 +68,11 @@ Download the ffmpeg.exe and ffprobe.exe files attached to the latest release.
 Place these .exe files directly into the root directory of the cloned project.
 
 Run the simulator.
+
+python multirate_video_streaming_simulator.py --model 0   # Sine
+python multirate_video_streaming_simulator.py --model 1   # Constant
+python multirate_video_streaming_simulator.py --model 2   # Ramp
+python multirate_video_streaming_simulator.py --model 3   # Step
+python multirate_video_streaming_simulator.py --model 4   # Random Walk
+python multirate_video_streaming_simulator.py --model 5   # Congested
+python multirate_video_streaming_simulator.py --model 6   # Degrading
