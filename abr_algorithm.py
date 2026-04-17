@@ -45,11 +45,11 @@ class ABRController:
         self,
         available_bitrates: Optional[list[int]] = None,
         safety_margin: float = 0.8,
-        ewma_alpha: float = 0.3,
+        ewma_alpha: float = 0.7,
         buffer_low_threshold: float = config.BUFFER_LOW,
         buffer_target: float = config.BUFFER_TARGET,
         buffer_high_threshold: float = config.BUFFER_MAX,
-        min_segments_between_upgrades: int = 3,
+        min_segments_between_upgrades: int = 1,
     ):
         # Validate and set bitrate ladder
         if available_bitrates is None:

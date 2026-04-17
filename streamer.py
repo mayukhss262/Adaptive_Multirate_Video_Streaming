@@ -79,12 +79,12 @@ def download_next_chunk(
     }
 
 
-def stream(total_chunks: int = 50) -> list[dict]:
+def stream(total_chunks: int = 50, model: int = config.NET_MODEL) -> list[dict]:
     """
     Main loop — downloads chunks back-to-back.
     Returns the list of per-chunk result dicts.
     """
-    network_sim = NetworkSimulator(use_wall_clock=True)
+    network_sim = NetworkSimulator(model=model, use_wall_clock=True)
     abr = ABRController()
 
     buffer = 0.0
@@ -106,17 +106,28 @@ def stream(total_chunks: int = 50) -> list[dict]:
 
 
 if __name__ == "__main__":
+    import argparse
+    from network_sim import MODEL_NAMES, VALID_MODELS
+
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s %(message)s",
         datefmt="%H:%M:%S",
     )
 
+    parser = argparse.ArgumentParser(description="Adaptive Streamer demo")
+    parser.add_argument("--model", "-m", type=int, default=config.NET_MODEL,
+                        choices=sorted(VALID_MODELS), metavar="MODEL",
+                        help="Network model (0-6). Default: %(default)s")
+    parser.add_argument("--chunks", "-c", type=int, default=20,
+                        help="Number of chunks to stream. Default: %(default)s")
+    args = parser.parse_args()
+
     print("=" * 60)
-    print("Adaptive Streamer — chunk-by-chunk demo")
+    print(f"Adaptive Streamer — chunk-by-chunk demo (model {args.model}: {MODEL_NAMES[args.model]})")
     print("=" * 60)
 
-    results = stream(total_chunks=20)
+    results = stream(total_chunks=args.chunks, model=args.model)
 
     print(f"\n{'Chunk':>5}  {'Rendition':>9}  {'Bitrate':>10}  {'BW (Mbps)':>10}  {'DL Time':>8}")
     print(f"{'-'*5}  {'-'*9}  {'-'*10}  {'-'*10}  {'-'*8}")

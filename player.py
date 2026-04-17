@@ -41,7 +41,7 @@ class Player:
         self.chunk_log: list[dict] = []          # raw results from streamer
 
     # ---- buffer ops -------------------------------------------------------
-    def add_chunk(self, duration: float = None) -> None:
+    def add_chunk(self, duration: float | None = None) -> None:
         """Add a downloaded chunk's worth of playback time to the buffer."""
         if duration is None:
             duration = self.chunk_duration
@@ -114,6 +114,11 @@ class Player:
             # wall-clock after download
             t_after = time.time()
             elapsed = t_after - t_before
+
+            # Advance network sim time by chunk_duration (video playback time),
+            # NOT by real elapsed wall-clock time. This ensures network models
+            # like Ramp, Degrading, Congested evolve correctly with video time.
+            network_sim.advance(self.chunk_duration)
 
             # drain buffer by real elapsed time
             self.drain(elapsed)
