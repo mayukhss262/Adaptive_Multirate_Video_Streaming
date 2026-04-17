@@ -18,6 +18,9 @@ Simulates adaptive bitrate (ABR) video streaming over a fluctuating network — 
 | `visualizer.py` | Chart generator — produces bandwidth-vs-bitrate, quality distribution & buffer level plots (PNG) |
 | `multirate_video_streaming_simulator.py` | Orchestrator — runs encoding, simulation, metrics analysis, visualization, then stitches and plays the streamed video |
 
+SAMPLE VIDEOS CAN BE FOUND HERE: https://drive.google.com/drive/folders/1itGmcbIH6CjOu699yOoHgb-IMBZmdtNx?usp=sharing
+RESULTS ARE FOR sample4.mp4
+
 ## Usage
 
 ```bash
